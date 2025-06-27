@@ -732,3 +732,26 @@ footer {
         border-left-color: var(--secondary-color);
     }
 }
+
+.float-whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.float-whatsapp:hover {
+    background-color: #128C7E;
+    color: #FFF;
+}
